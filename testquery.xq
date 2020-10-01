@@ -43,7 +43,7 @@ declare namespace uuid='java.util.UUID';
 
 import module namespace functx='http://www.functx.com';
 import module namespace http='http://expath.org/ns/http-client';
-import module namespace ggeo='de.interactive_instruments.etf.bsxm.GmlGeoX';
+import module namespace geox = 'https://modules.etf-validator.net/gmlgeox/2'
 
 declare variable $limitErrors external := 1000;
 declare variable $validationErrors external := ''; 
